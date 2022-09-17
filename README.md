@@ -8,30 +8,39 @@
 ## Result:
 ## Linear Regression to Predict MPG:
 ### we can see image of MechaCar_mpg.csv
+![MechaCar_mpg.csv](https://github.com/Rubina-Shrivastava/MechaCar_Statistical_Analysis/blob/main/Images/MechaCar%20csv.png)
 ### Variables/coefficients provided a non-random amount of variance to the mpg values in the dataset:
 ### The vehicle length, and vehicle ground clearance are statistically likely to provide non-random amounts of variance to the model. That is to say, the vehicle length and vehicle ground clearance have a significant impact on miles per gallon on the MechaCar prototype. All have p-Values that indicate a random amount of variance with the dataset. We can see into the following image
 ### Linear Regression Image
+![Linear Regression Image](https://github.com/Rubina-Shrivastava/MechaCar_Statistical_Analysis/blob/main/Images/linear%20regression.png)
 ### The p-Value for this model, p-Value: 5.35e-11, is much smaller than the assumed significance level of 0.05%. This indicates there is sufficient evidence to reject our null hypothesis, which further indicates that the slope of this linear model is not zero.
 ### This linear model has an r-squared value of 0.7149, which means that approximately 71% of all mpg predictions will be determined by this model. Relatively speaking, his multiple regression model does predict mpg of MechaCar prototypes effectively.
 ### If we remove the less impactful independent variables (vehicle weight, spoiler angle, and All Wheel Drive), the predictability does decrease, but not drastically: the r-squared value falls from 0.7149 to 0. 6825.We can see into the following image 
 ### Liner Regression Summary Image 
+![Liner Regression Summary Image](https://github.com/Rubina-Shrivastava/MechaCar_Statistical_Analysis/blob/main/Images/linear%20summary.png)
 ## Summary Statistics on Suspension Coils:
-### We can see image of Suspension Coils
+### We can see image of Suspension Coils csv
+![Suspension Coils csv](https://github.com/Rubina-Shrivastava/MechaCar_Statistical_Analysis/blob/main/Images/suspension_coil.csv.png)
 ### The design specifications for the MechaCar suspension coils dictate that the variance of the suspension coils must not exceed 100 pounds per square inch. However, when reviewing the data by Lot number, Lot 3 is a large contributing factor to the variance being high. Lot 3 shows a variance of 170 > 100 and does not meet the design specifications. 
 ### Manufacturing Lot Summary Image
+![Manufacturing Lot Summary](https://github.com/Rubina-Shrivastava/MechaCar_Statistical_Analysis/blob/main/Images/lot_summary.png)
 ### The mean is 1498.78 for this sample and the population mean was determined to be 1500
 ### Summary by Manufacturing Lot Number Image
+![Summary by Manufacturing Lot Number](https://github.com/Rubina-Shrivastava/MechaCar_Statistical_Analysis/blob/main/Images/total_summary.png)
 ### Similarly, but significantly more consistent, Lot 1 and Lot 2 are well within the 100 PSI variance requirement; with variances of 0.98 and 7.47 respectively. However, it is Lot 3 that is showing much larger variance in performance and consistency, with a variance of 170.29. It is Lot 3 that is disproportionately causing the variance at the full lot level.
 ## T-Tests on Suspension Coils
 ### We can see the true mean of the sample is 1498.78, which we also saw in the summary statistics above. With a p-Value of 0.06, which is higher than the common significance level of 0.05, there is NOT enough evidence to support rejecting the null hypothesis. That is to say, the mean of all three of these manufacturing lots is statistically similar to the presumed population mean of 150
 ### T-Test for All Lots
+![T-Test for All Lots](https://github.com/Rubina-Shrivastava/MechaCar_Statistical_Analysis/blob/main/Images/t-test%20for%20all%20lots.png))
 ### Lot 1 p-value = 1, alpha = .05 ,1 > .05, which means Lot 1 is not statistically significant from the normal distribution and normality can be assumed. The mean falls within the 95% confidence interval.
 ### T-Test for Lot 1
+![T-Test for Lot 1](https://github.com/Rubina-Shrivastava/MechaCar_Statistical_Analysis/blob/main/Images/t-test%20for%20lot%201.png)
 ### Lot 2 has essentially the same outcome with a sample mean of 1500.02, a p-Value of 0.61; the null hypothesis cannot be rejected, and the sample mean and the population mean of 1500 are statistically similar
 ### T-Test for Lot 2
+![T-Test for Lot 2](https://github.com/Rubina-Shrivastava/MechaCar_Statistical_Analysis/blob/main/Images/t_test%20for%20lot%202.png)
 ### Lot 3: p-value = .04168, alpha = .05, .04 < .05, which means it is statistically significant from the normal distribution and normality cannot be assumed. However, the mean falls within the 95% confidence interval.
 ### T-Test for Lot 3
-
+![T-Test for Lot 3](https://github.com/Rubina-Shrivastava/MechaCar_Statistical_Analysis/blob/main/Images/t_test%20for%20lot%203.png)
 ## Study Design: MechaCar vs Competition
 ### MechaCar performs against the competition, then following metrics would be of interest to a consumer, could include cost, city or highway fuel efficiency, horse power, maintenance cost, or safety rating.
 ### Metric to test
